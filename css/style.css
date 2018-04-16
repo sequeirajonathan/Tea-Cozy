@@ -1,8 +1,101 @@
+
+/* Base Line Atributes */
 * {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation Atributes */
+.parent-container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.child-container-nav img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.child-container-nav a {
+  padding-left: 20px;
+}
+
+/* Jumbotron Main Attributes */
+.jumbotron{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.jumbo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://raw.github.com/sequeirajonathan/Tea-Cozy/master/resources/images/mission.jpg");
+}
+
+.title-main {
+  background-color: black;
+  height: 100px;
+  width: 1200px;
+  text-align: center;
+}
+
+.title-main h2{
+  margin-top: 10px;
+  font-size: 30px;
+}
+.title-main h4{
+  position: relative;
+  top: 20px;
+}
+
+/* Jumbotron Sub Attributes */
+.jumbotron-sub{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbo-sub-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+  width: 1000px;
+}
+.jumbo-sub-items h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.image-grid {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+.grid-item {
+  padding: 16px;
+}
+.grid-item img {
+  height: 200px;
+  width: 300px;
 }
