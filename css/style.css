@@ -94,7 +94,55 @@
 .grid-item {
   padding: 16px;
 }
+
 .grid-item img {
   height: 200px;
   width: 300px;
 }
+
+.grid-item h4 {
+  margin-top: 10px;
+}
+/* Jumbotron Sub Attributes */
+
+/* Jumbotron mini Attributes */
+.mini-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://raw.github.com/sequeirajonathan/Tea-Cozy/master/resources/images/locations.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.column-header {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+.column-header h3{
+  margin-top: 35px;
+  text-align: center;
+}
+.column-header p{
+  position: relative;
+  top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#mini-title {
+  position: relative;
+  bottom: 177px;
+  left: 559px;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Jumbotron mini Attributes */
