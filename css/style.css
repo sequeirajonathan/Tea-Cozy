@@ -6,6 +6,7 @@
   color: seashell;
   background-color: black;
   text-align: center;
+  opacity: 0.9;
   padding: 0;
   margin: 0;
 }
@@ -70,6 +71,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
 }
 
 .jumbo-sub-items {
@@ -78,6 +80,7 @@
   justify-content: center;
   margin-top: 80px;
   width: 1000px;
+  border: 1px solid white;
 }
 .jumbo-sub-items h2{
   font-size: 30px;
@@ -115,7 +118,6 @@
   width: 1200px;
   background-image: url("https://raw.github.com/sequeirajonathan/Tea-Cozy/master/resources/images/locations.jpg");
   background-position: center;
-  background-size: cover;
 }
 .column-header {
   background-color: black;
@@ -146,3 +148,45 @@
   font-weight: bold;
 }
 /* Jumbotron mini Attributes */
+
+/* Footer*/
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+}
+.footer-items h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.footer-items h5{
+  font-size: 0.8em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* Footer*/
+
+/* trade-mark*/
+
+.trade-mark {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.trade-mark h5{
+  font-size: 0.8em;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
